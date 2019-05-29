@@ -7,7 +7,8 @@ Cowrie beautifier is a tool to convert Cowrie honeypot logs into JSON files:
 * login username sorted by most popular  - { "username": count }
 * login password sorted by most popular  - { "password": count }
 * Shell commands sorted by most popular  - { "command": count }
-* Login username { "username": count }
+* Wordlist employed by ip address - { "ip": { "user:pass": count_of_ssh_connections } } 
+
 
 # Credits
 * Special thanks for the creators of [cowrie honeypot](https://github.com/cowrie/cowrie).
