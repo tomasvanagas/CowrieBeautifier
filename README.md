@@ -2,7 +2,7 @@
 
 
 # Cowrie Beautifier
-Cowrie beautifier is a tool to convert Cowrie honeypot logs into:
+Cowrie beautifier is a tool to convert Cowrie honeypot logs into JSON files:
 * Login username and passwords sorted by most popular - { "user:pass": count }
 * login username sorted by most popular  - { "username": count }
 * login password sorted by most popular  - { "password": count }
